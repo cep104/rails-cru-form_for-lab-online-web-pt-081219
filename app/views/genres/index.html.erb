@@ -1,0 +1,6 @@
+<h1>Genres:</h1>
+
+<% @genres.each do |genre|%>
+<%=link_to genre.to_s, artist_path(genre) %>
+
+<%end%>
